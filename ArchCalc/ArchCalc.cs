@@ -31,18 +31,15 @@ namespace ArchCalc
             {
                 case 1:
                     return Math.Round((Rectangle(1500, 2500) + (Circle(375) / 2) + Triangle(500, 750)) * tileCost, 2);
-                    break;
                 case 2:
                     return Math.Round((Rectangle(90.5, 90.5) - (Triangle(24, 24) * 4)) * tileCost, 2);
-                    break;
                 case 3:
                     return Math.Round((Rectangle(180, 106) + Rectangle(284, 200) - Triangle(264, 84)) * tileCost, 2);
-                    break;
                 default:
                     Console.WriteLine("You did not supply a valid selection.\nTry again.");
-                    return 0;
                     break;
             }
+            return 0;
 
         }
         static int SelectMonument()
