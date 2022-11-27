@@ -39,8 +39,6 @@ namespace ArchCalc
                     Console.WriteLine("You did not supply a valid selection.\nTry again.");
                     return 0;
             }
-            return 0;
-
         }
         static int SelectMonument()
         {
