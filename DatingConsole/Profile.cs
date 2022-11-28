@@ -26,11 +26,16 @@ namespace DatingConsole
         // Methods
         public string ViewProfile()
         {
-            string userProfile = $"Name: {name}\nAge: {age}\nCity: {city}\nCountry: {country}\nPronouns: {pronouns}\nHobbies:\n";
+            string userProfile = $"Name: {name}\nAge: {age}\nCity: {city}\nCountry: {country}\nPronouns: {pronouns}\n";
 
-            foreach (string hobby in hobbies)
+            if (hobbies.Length > 0)
             {
-                userProfile += $"* {hobby}\n";
+                userProfile += "Hobbies:\n";
+                foreach (string hobby in hobbies)
+                {
+                    
+                    userProfile += $"* {hobby}\n";
+                }
             }
             return userProfile;
         }

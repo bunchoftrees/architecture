@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Profile sam = new Profile("Forrest Hartley", 35, "Boston", "US", "he/him");
-            Console.WriteLine(sam.ViewProfile());
-            sam.SetHobbies(new string[] { "reading", "writing computer programs", "watching star trek" });
-            Console.WriteLine(sam.ViewProfile());
+            Profile bear = new Profile("Forrest Hartley", 35, "Boston", "US", "he/him");
+            Console.WriteLine(bear.ViewProfile());
+            bear.SetHobbies(new string[] { "reading", "writing computer programs", "watching star trek" });
+            Console.WriteLine(bear.ViewProfile());
         }
 
     }
