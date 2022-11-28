@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "architecture", "ArchCalc\architecture.csproj", "{A9BA0887-F2ED-4FDB-A508-B9992AE8A5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHelper", "ConsoleHelper\ConsoleHelper.csproj", "{5399015B-19A9-4307-BEDF-301E4DD8D100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cypher", "Cypher\Cypher.csproj", "{8A2E950A-5DED-49DA-AB20-6A6EA016903C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingConsole", "DatingConsole\DatingConsole.csproj", "{2E23540D-CB40-4CB1-8C19-DA6D51CE07A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9BA0887-F2ED-4FDB-A508-B9992AE8A5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9BA0887-F2ED-4FDB-A508-B9992AE8A5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BA0887-F2ED-4FDB-A508-B9992AE8A5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9BA0887-F2ED-4FDB-A508-B9992AE8A5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5399015B-19A9-4307-BEDF-301E4DD8D100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5399015B-19A9-4307-BEDF-301E4DD8D100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5399015B-19A9-4307-BEDF-301E4DD8D100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5399015B-19A9-4307-BEDF-301E4DD8D100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2E950A-5DED-49DA-AB20-6A6EA016903C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2E950A-5DED-49DA-AB20-6A6EA016903C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2E950A-5DED-49DA-AB20-6A6EA016903C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2E950A-5DED-49DA-AB20-6A6EA016903C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E23540D-CB40-4CB1-8C19-DA6D51CE07A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E23540D-CB40-4CB1-8C19-DA6D51CE07A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E23540D-CB40-4CB1-8C19-DA6D51CE07A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E23540D-CB40-4CB1-8C19-DA6D51CE07A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
