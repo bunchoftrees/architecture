@@ -20,7 +20,24 @@ namespace DatingConsole
             this.city = city;
             this.country = country;
             this.pronouns = pronouns;
-            string[] hobbies;
+            this.hobbies = new string[0];
+        }
+
+        // Methods
+        public string ViewProfile()
+        {
+            string userProfile = $"Name: {name}\nAge: {age}\nCity: {city}\nCountry: {country}\nPronouns: {pronouns}\nHobbies:\n";
+
+            foreach (string hobby in hobbies)
+            {
+                userProfile += $"* {hobby}\n";
+            }
+            return userProfile;
+        }
+
+        public void SetHobbies(string[] hobbies)
+        {
+            this.hobbies = hobbies;
         }
     }
 }
