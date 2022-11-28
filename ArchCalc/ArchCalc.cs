@@ -43,7 +43,7 @@ namespace ArchCalc
         static int SelectMonument()
         {
             Console.WriteLine("What monument would you like to retile?");
-            Console.WriteLine("1. Teotihuacan\n2. Taj Mahal\n3. Great Mosque of Mecca");
+            Console.WriteLine("1. Teotihuacan\n2. Taj Mahal\n3. Great Mosque of Mecca\n");
             Console.WriteLine("Enter the number for the monument.");
             int input = Convert.ToInt32(Console.ReadLine());
             return input;
