@@ -6,7 +6,7 @@ namespace DatingConsole
   {
     static void Main(string[] args)
     {
-      Profile sam = new Profile("Sam Drakkila", 35, "New York", "US", "he/him");
+      Profile sam = new Profile("Forrest Hartley", 35, "Boston", "US", "he/him");
       Console.WriteLine(sam.ViewProfile());
       sam.SetHobbies(new string[] {"reading", "writing computer programs", "watching star trek"});
       System.Console.WriteLine(sam.ViewProfile());
