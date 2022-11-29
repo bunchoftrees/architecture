@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cypher", "Cypher\Cypher.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingConsole", "DatingConsole\DatingConsole.csproj", "{2E23540D-CB40-4CB1-8C19-DA6D51CE07A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonHelper", "JsonHelper\JsonHelper.csproj", "{59A16E54-E8D8-4684-BAC2-B531CC353DB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{2E23540D-CB40-4CB1-8C19-DA6D51CE07A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E23540D-CB40-4CB1-8C19-DA6D51CE07A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E23540D-CB40-4CB1-8C19-DA6D51CE07A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A16E54-E8D8-4684-BAC2-B531CC353DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A16E54-E8D8-4684-BAC2-B531CC353DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A16E54-E8D8-4684-BAC2-B531CC353DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A16E54-E8D8-4684-BAC2-B531CC353DB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
