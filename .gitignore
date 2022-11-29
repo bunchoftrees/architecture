@@ -453,3 +453,6 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+## Custom files
+Products_Course_Mapping_b2c.json
