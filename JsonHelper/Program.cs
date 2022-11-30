@@ -1,25 +1,11 @@
 using System;
-using System.Text.Json;
+using Newtonsoft.Json;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        var incoming = new List<Product>();
-        using (StreamReader r = new StreamReader("Products_Course_Mapping_b2c.json"))
-        {
-            string json = r.ReadToEnd();
-            incoming = JsonSerializer.Deserialize<List<Product>>(json);
-        }
-
-        if (incoming != null && incoming.Count > 0)
-        {
-            foreach (var product in incoming)
-            {
-                Console.WriteLine($"{product.ProductName}");
-            }
-        }
+        
     }
 }
 
